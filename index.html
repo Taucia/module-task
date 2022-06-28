@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootstrap Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- Font Awesome CSS Icons -->
+    <script src="https://kit.fontawesome.com/551cd18789.js" crossorigin="anonymous" defer></script>
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./style/style.css">
+    <title>task</title>
+</head>
+<body>
+    <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+          <li><a href='http://'>Home</a></li>
+          <li><a class='dropdown-arrow' href='http://'>Products</a>
+            <ul class='sub-menus'>
+              <li><a href='http://'>Products 1</a></li>
+              <li><a href='http://'>Products 2</a></li>
+              <li><a href='http://'>Products 3</a></li>
+              <li><a href='http://'>Products 4</a></li>
+            </ul>
+          </li>
+          <li><a href='http://'>About</a></li>
+          <li><a class='dropdown-arrow' href='http://'>Services</a>
+            <ul class='sub-menus'>
+              <li><a href='http://'>Services 1</a></li>
+              <li><a href='http://'>Services 2</a></li>
+              <li><a href='http://'>Services 3</a></li>
+            </ul>
+          </li>
+          <li><a href='http://'>Contact Us</a></li>
+        </ul>
+      </nav>
+    <!-- Landing -->
+    <section id="landing">
+        <div id="landing-container">
+            <h1 id="landing-Title">
+               jacksons marketing
+            </h1>
+            <p class="landing-desc">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <p  class="landing-desc">
+                Est sapiente facilis quibusdam quae quo dolor
+            </p>
+        </div>
+        <div id="landing-filter">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                  <h3>Toilets</h3>
+                <select name="toilets" id="property-toilets">
+                    <option value="" disabled selected hidden>Toilets</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                </div>
+                <div class="col-md-2">
+                  <h3>Rooms</h3>
+                <select name="rooms" id="property-rooms">
+                    <option value="Amount of Rooms"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                </div>
+                <div class="col-md-2">
+                  <h3>Location</h3>
+                <select name="rooms" id="property-rooms">
+                    <option value="Amount of Rooms"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                </div>
+                <div class="col-md-2">
+                  <h3>Budget</h3>
+                <input type="number" name="budget" id="property-budget">
+                </div>
+                  <button id="search-btn" class="col-md-2">Search</button>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Property Listing -->
+    <section id="propertyListing">
+        <h2 id="propertyListing-Title">Properties available</h2>
+          <div class="row" id="properties-row">
+
+          </div>
+    </section>
+
+    <!-- Agent Reviews -->
+    <section id="agent">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 id="agent-heading">Meet our Agents</h2>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+          <img src="../image/test1.jpg" class="card-img-top agent-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+          <img src="../image/test2.jpg" class="card-img-top agent-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+          <img src="../image/test3.jpg" class="card-img-top agent-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+          <img src="../image/test4.jfif" class="card-img-top agent-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    <!-- Contact -->
+    <section id="contact">
+      <form action="">
+
+      </form>
+    </section>
+
+    <!-- Footer
+    <section id="footer">
+      <h2>Contact Us</h2>
+      <ul>
+        <li>Address</li>
+        <li>Phne NUmber</li>
+        <li>Email</li>
+      </ul>
+      <form action="">
+        <input type="text">
+        <button>Submit</button>
+      </form> -->
+
+      <!-- <section id="landing" class="min-vh-100">
+
+      </section>
+
+<section id="bodypage" class="min-vh-100">
+
+</section>
+<section id="form" class="min-vh-100">
+
+</section> -->
+<footer class="footer fixed-bottom mt-0">
+    <span class="copyright">Copyright ©Taucia Jackson 2022. All Rights Reserved</span>
+
+</footer>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+<script src="./script/code.js"></script>   
+<script>
+    AOS.init();
+</script> 
+</body>
+</html>

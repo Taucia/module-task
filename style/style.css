@@ -1,0 +1,271 @@
+#menu {
+    background:  rgb(45, 24, 58);
+    color: #FFF;
+    height: 45px;
+    padding-left: 18px;
+
+}
+
+#menu ul,
+#menu li {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none
+}
+
+#menu ul {
+    width: 100%;
+}
+
+#menu li {
+    float: left;
+    display: inline;
+    position: relative;
+}
+
+#menu a {
+    display: block;
+    line-height: 45px;
+    padding: 0 14px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+#menu a.dropdown-arrow:after {
+    content: "\25BE";
+    margin-left: 5px;
+}
+
+#menu li a:hover {
+    color: #cc0085;
+    background: #F2F2F2;
+}
+
+#menu input {
+    display: none;
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer
+}
+
+#menu label {
+    display: none;
+    line-height: 45px;
+    text-align: center;
+    position: absolute;
+    left: 35px
+}
+
+#menu label:before {
+    font-size: 1.6em;
+    content: "\2261";
+    margin-left: 20px;
+}
+
+#menu ul.sub-menus {
+    height: auto;
+    overflow: hidden;
+    width: 170px;
+    background: #1f0d23;
+    position: absolute;
+    z-index: 99;
+    display: none;
+}
+
+#menu ul.sub-menus li {
+    display: block;
+    width: 100%;
+}
+
+#menu ul.sub-menus a {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+#menu li:hover ul.sub-menus {
+    display: block
+}
+
+#menu ul.sub-menus a:hover {
+    background: #F2F2F2;
+    color: #444444;
+}
+
+@media screen and (max-width: 800px) {
+    #menu {
+        position: relative
+    }
+
+    #menu ul {
+        background: #111;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        z-index: 3;
+        height: auto;
+        display: none
+    }
+
+    #menu ul.sub-menus {
+        width: 100%;
+        position: static;
+    }
+
+    #menu ul.sub-menus a {
+        padding-left: 30px;
+    }
+
+    #menu li {
+        display: block;
+        float: none;
+        width: auto;
+    }
+
+    #menu input,
+    #menu label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block
+    }
+
+    #menu input {
+        z-index: 4
+    }
+
+    #menu input:checked+label {
+        color: white
+    }
+
+    #menu input:checked+label:before {
+        content: "\00d7"
+    }
+
+    #menu input:checked~ul {
+        display: block
+    }
+}
+
+#landing {
+    /* height: 100vh; */
+    background: url(".");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#bodypage {
+    /* height: 100vh; */
+    background: url(".");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#form {
+    /* height: 100vh; */
+    background: url(".");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+.footer {
+    /* position: relative; */
+    left: 0;
+    bottom: fixed;
+    width: 100%;
+    background-color:rgb(45, 24, 58);
+    color:white;
+    text-align: center;
+    height: 10%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Landing */
+#landing{
+    background-image: url(../image/background.jpg), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 70vh;
+    width: 100%;
+}
+#landing-container{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top:10%;
+}
+#landing-Title{
+    color: white;
+}
+.landing-desc{
+    color: white;
+    font-size: 30px;
+}
+/* Filter */
+#landing-filter{
+    background-color:purple;
+    margin: 11% 10% 0 10%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px black;
+}
+#landing-filter .row{
+    color: white;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none; */
+    /* For gap in col */
+    /* padding: 20px; */
+    /* Move col */
+    /* padding-left and right  */
+
+}
+
+/* Property Listing Section */
+#propertyListing-Title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8%;
+}
+/* Agent Section */
+#agent-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 50px 0;
+}
+/* Agent img */
+.agent-img{
+    border-radius: 50%;
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+}
+select{
+    color: grey;
+}
+option{
+    color: black;
+}
+/* © 2022 GitHub, Inc.
+Footer navigation */
