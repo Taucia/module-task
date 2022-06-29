@@ -182,7 +182,7 @@
 .footer {
     /* position: relative; */
     left: 0;
-    bottom: fixed;
+    /* bottom: fixed; */
     width: 100%;
     background-color:rgb(45, 24, 58);
     color:white;
@@ -196,7 +196,7 @@
 }
 /* Landing */
 #landing{
-    background-image: url(../image/background.jpg), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: url(../image/cd100b3f55666e9ab561eb4f8624cebc.jpg), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
@@ -219,26 +219,116 @@
     color: white;
     font-size: 30px;
 }
-/* Filter */
+/* Search */
+#search {
+    padding: 10px;
+    min-height: 20vh;
+    margin-top: 55px;
+}
+
+#search .container {
+    background-color: white;
+    box-shadow: 5px 5px 10px 1px #616161;
+}
+
+#search label {
+    width: 150px;
+}
+
+/* Filter 
 #landing-filter{
     background-color:purple;
-    margin: 11% 10% 0 10%;
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px 3px black;
-}
+    margin: 11% 0 ;
+    border-radius: 2px;
+    box-shadow: 3px 3px 3px 3px rgb(24, 13, 50);
+    width:95rem;
+
+}/* 
 #landing-filter .row{
-    color: white;
-    /* display: flex;
+    color:black;
+    display: flex;
     align-items: center;
     justify-content: center;
     list-style: none; */
     /* For gap in col */
     /* padding: 20px; */
     /* Move col */
-    /* padding-left and right  */
+    /* padding-left and right } */
 
-}
 
+
+/*
+ .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    
+  }
+  
+  .searchbar {
+      float: right;
+      background-color:purple;
+      color: white;
+      padding: 6px 10px;
+      width: 120px;
+      border: none;
+      margin-top: 1px;
+      margin-right: 8px;
+      font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+      font-size: 1em;
+      font-weight: bold;
+      border-bottom: white solid 2px;
+      transition: 0.3s;
+  }
+  
+  .searchbar::placeholder {
+      color: white;
+      font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+      font-size: 1em;
+      font-weight: bold;
+       transition: 0.2s;
+  }
+  
+  .searchbar:focus {
+      width: 400px;
+      font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+      font-size: 1em;
+      font-weight: bold;
+      transition: 0.3s;
+     Stops the input box from inheriting the styling from the inputs on the request form 
+      border-bottom: white solid 2px;
+      outline: none;
+  }
+  
+  .btn-search {
+      cursor: pointer;
+      color: white;
+      text-decoration: none !important;
+      font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+      font-size: 1.5em;
+      padding-top: 5px;
+      margin-right: 40px;
+  } */
+
+  #property-toilets{
+    width:70px;
+    height:35px;
+   margin-left: 10px;
+   justify-content: left;
+  margin-right: 100px;
+  }
+  #property-rooms{
+    width:80px;
+    height:35px;
+  }
+  #property-location{
+    width:80px;
+    height:35px;
+  }
+  #property-budget{
+    width:80px;
+    height:35px;
+  }
 /* Property Listing Section */
 #propertyListing-Title{
     display: flex;
@@ -267,5 +357,31 @@ select{
 option{
     color: black;
 }
-/* © 2022 GitHub, Inc.
-Footer navigation */
+#container-gallery{
+   
+    margin-top: 70px;
+}
+.gallery{
+width:50vw;
+height:0vmin;
+display: flex;
+gap: 5px;
+align-content: center;
+}
+.gallery img{
+height: 50%;
+flex: 1;
+object-fit: cover;
+overflow: hidden;
+cursor: pointer;
+border-radius: 10px;
+transition: 00.3s;
+
+
+}
+.gallery img:hover{
+    flex:4;
+}
+
+
+
