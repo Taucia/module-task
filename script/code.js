@@ -32,8 +32,8 @@ function updatemenu() {
             type: 'Apartment',
             location: 'New York City',
             url: "https://i.postimg.cc/SK3xW5dY/21f59207f31a1be0657c9b10492ed527.jpg",
-            bed: '<i class="fa-solid fa-bed"> 2</i>',
-            toilet: `<i class="fa-solid fa-toilet"> 2</i>`,
+            bed: '<i class="fa-solid fa-bed"> 6</i>',
+            toilet: `<i class="fa-solid fa-toilet"> 3</i>`,
             price: 10000
         },
         {
@@ -42,7 +42,7 @@ function updatemenu() {
             location: 'New York City',
             url: "../image/5b687231639838184bda69a5a748282c.jpg",
             bed: '<i class="fa-solid fa-bed"> 5</i>',
-            toilet: `<i class="fa-solid fa-toilet"> 3</i>`,
+            toilet: `<i class="fa-solid fa-toilet"> 2</i>`,
             price: 10000
         },
         {
@@ -50,7 +50,7 @@ function updatemenu() {
             type: 'Apartment',
             location: 'New York City',
             url: "../image/cbce6718be5470d2e4e4673dae2a2c41.jpg",
-            bed: '<i class="fa-solid fa-bed"> 3</i>',
+            bed: '<i class="fa-solid fa-bed"> 4</i>',
             toilet: `<i class="fa-solid fa-toilet"> 2</i>`,
             price: 10000
         },
@@ -59,8 +59,8 @@ function updatemenu() {
             type: 'Apartment',
             location: 'New York City',
             url: "../image/ccd5ccd6c88be5bb4e3fa256e5798478.jpg",
-            bed: '<i class="fa-solid fa-bed"> 3</i>',
-            toilet: `<i class="fa-solid fa-toilet"> 2</i>`,
+            bed: '<i class="fa-solid fa-bed"> 6</i>',
+            toilet: `<i class="fa-solid fa-toilet"> 3</i>`,
             price: 10000
         },
         {
@@ -77,7 +77,7 @@ function updatemenu() {
         type: 'Apartment',
         location: 'New York City',
         url: "../image/images.jpg",
-        bed: '<i class="fa-solid fa-bed"> 3</i>',
+        bed: '<i class="fa-solid fa-bed"> 5</i>',
         toilet: `<i class="fa-solid fa-toilet"> 2</i>`,
         price: 10000
     },
@@ -94,7 +94,7 @@ function updatemenu() {
     type: 'Apartment',
     location: 'New York City',
     url: "https://i.postimg.cc/GpL3D5Nd/8.jpg",
-    bed: '<i class="fa-solid fa-bed"> 3</i>',
+    bed: '<i class="fa-solid fa-bed"> 6</i>',
     toilet: `<i class="fa-solid fa-toilet"> 2</i>`,
     price: 10000
 },
@@ -112,8 +112,8 @@ function updatemenu() {
   type: 'Apartment',
   location: 'New York City',
   url: "../image/10.jpg.crdownload",
-  bed: '<i class="fa-solid fa-bed"> 3</i>',
-  toilet: `<i class="fa-solid fa-toilet"> 2</i>`,
+  bed: '<i class="fa-solid fa-bed"> 4</i>',
+  toilet: `<i class="fa-solid fa-toilet"> </i>`,
   price: 10000
 }
     ];

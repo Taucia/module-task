@@ -1,3 +1,10 @@
+body{
+
+    overflow-x: hidden;
+}
+#icon-size{
+    font-size: small;
+}
 #menu {
     background:  rgb(45, 24, 58);
     color: #FFF;
@@ -257,7 +264,7 @@
 
 
 
-/*
+
  .container {
     display: flex;
     flex-direction: row;
@@ -295,7 +302,7 @@
       font-size: 1em;
       font-weight: bold;
       transition: 0.3s;
-     Stops the input box from inheriting the styling from the inputs on the request form 
+     /* Stops the input box from inheriting the styling from the inputs on the request form  */
       border-bottom: white solid 2px;
       outline: none;
   }
@@ -308,7 +315,7 @@
       font-size: 1.5em;
       padding-top: 5px;
       margin-right: 40px;
-  } */
+  } 
 
   #property-toilets{
     width:70px;
