@@ -99,44 +99,48 @@
 
 
     <section id="search">
-      <div class="container bg-dark ">
+      <div class="container bg-dark text-white rounded-5 border border-2 p-3 my-3 ">
         <input id="searchBar" class="searchbar" type="text" placeholder="Search...">
         <a id="btnSearch" class="btn-search"><i class="fa fa-search"></i></a>
       </div>
-      <div class="container  bg-dark text-white rounded-5 border border-2 p-3 my-3">
+      <div class="container  bg-dark text-white rounded-5 border border-2 p-3 my-3 align-content-between">
           <h2 class="text-center">Filter</h2>
 
           <div class="row">
-              <div class="mx-auto col-lg-2 col-md-6 ">
+              <div class="mx-auto col-lg-2 col-md-3 ">
                   <label for="property">Looking For:</label>
                   <select class="form-select" name="property" id="property">
                       <option value="">Property Type</option>
-                      <option value=""></option>
-                      <option value=""></option>
+                      <option value="">Large</option>
+                      <option value="">Medium</option>
+                      <option value="">Small</option>
                   </select>
               </div>
-              <div class="mx-auto col-lg-2 col-md-6 ">
+              <div class="mx-auto col-lg-2 col-md-3 ">
                   <label for="location">Location: </label>
                   <select class="form-select" name="location" id="location">
                       <option value="">All Cities</option>
-                      <option value=""></option>
-                      <option value=""></option>
+                      <option value="">Local cities</option>
+                      <option value="">Cities</option>
+                      <option value="">International cities</option>
                   </select>
               </div>
-              <div class="mx-auto col-lg-2 col-md-6 ">
+              <div class="mx-auto col-lg-2 col-md-3">
                   <label for="size">Property size: </label>
                   <select class="form-select" name="size" id="size">
                       <option value="">Bedrooms</option>
-                      <option value=""></option>
-                      <option value=""></option>
+                      <option value="">Toilet</option>
+                      <option value="">Kitchen</option>
+                      <option value="">Dinning-room</option>
+                     
                   </select>
               </div>
-              <div class="mx-auto col-lg-2 col-md-6 ">
+              <div class="mx-auto col-lg-2 col-md-3 ">
                   <label for="budget">Your Budget: </label>
                   <select class="form-select" name="budget" id="budget">
                       <option value="">Max. Price</option>
-                      <option value=""></option>
-                      <option value=""></option>
+                      <option value="">Mid. Price</option>
+                      <option value="">Min. Price</option>
                   </select>
               </div>
               <!-- <div class="mx-auto col-lg-2 col-md-6 "> -->
@@ -150,7 +154,7 @@
 
 
     <!-- Property Listing -->
-    <section id="propertyListing">
+    <section id="propertyListing" class="text-white">
         <h2 id="propertyListing-Title"> Available Properties</h2>
           <div class="row" id="properties-row">
 
@@ -158,57 +162,12 @@
     </section>
 
     <!-- Agent Reviews -->
-    <section id="agent">
+    <!-- <section id="agent">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <h2 id="agent-heading">Meet our Agents</h2>
-          </div>
-          <div class="col-md-3">
-            <div class="card" style="width: 18rem;">
-          <img src="../image/test1.jpg" class="card-img-top agent-img" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card" style="width: 18rem;">
-          <img src="../image/test2.jpg" class="card-img-top agent-img" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card" style="width: 18rem;">
-          <img src="../image/test3.jpg" class="card-img-top agent-img" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card" style="width: 18rem;">
-          <img src="../image/test4.jfif" class="card-img-top agent-img" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-<div class="gallery">
+         <div class="gallery">
 <img src="https://i.postimg.cc/SK3xW5dY/21f59207f31a1be0657c9b10492ed527.jpg" alt="">
 <img src="./image/5b687231639838184bda69a5a748282c.jpg" alt="">
 <img src="./image/5b687231639838184bda69a5a748282c.jpg" alt="">
@@ -219,13 +178,9 @@
 <img src="./image/5b687231639838184bda69a5a748282c.jpg" alt="">
 
 </div>
-</section>
-    <!-- Contact -->
-    <section id="contact">
-      <form action="">
-
-      </form>
-    </section>
+      </div>
+    </section> -->
+  
 
     <!-- Footer
     <section id="footer">
@@ -251,6 +206,18 @@
 
 </section> -->
 <footer class="footer fixed-bottom mt-0">
+  <div class="row-md-2 text-center list-group-horizontal mb-md-5 text-white">
+    <div class="list-unstyled ">
+      <h2> Contact Us
+
+      </h2>
+        <i class="fas fa-phone mt-4 fa-2x"></i>
+        <p> +27843578830</p>
+        <i class="fas fa-envelope mt-4 fa-2x"></i>
+        <p> taucia.jackson123@gmail.com</p>
+
+    </div>
+</div>
     <span class="copyright">Copyright ©Taucia Jackson 2022. All Rights Reserved</span>
 
 </footer>
