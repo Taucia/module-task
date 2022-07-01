@@ -410,6 +410,13 @@ transition: 00.3s;
     flex:4;
 }
 .card-property-height{
-    height: 450px;
+    height: 400px;
+}
+img{
+    object-fit: cover;
 }
 
+td img{
+    width:10px;
+    height:10px;
+}
